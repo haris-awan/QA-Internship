@@ -1,0 +1,15 @@
+{
+  "name": "cypress-saucedemo",
+  "version": "1.0.0",
+  "description": "Cypress E2E automation for SauceDemo – Assignment 6",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:login": "cypress run --spec 'cypress/e2e/login.cy.js'",
+    "cy:run:homepage": "cypress run --spec 'cypress/e2e/homepage.cy.js'",
+    "cy:run:product": "cypress run --spec 'cypress/e2e/product.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
