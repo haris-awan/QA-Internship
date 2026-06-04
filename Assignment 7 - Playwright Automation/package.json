@@ -1,0 +1,16 @@
+{
+  "name": "playwright-daraz",
+  "version": "1.0.0",
+  "description": "Playwright E2E automation for Daraz.pk – Assignment 7",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:search": "npx playwright test tests/search.spec.js --headed",
+    "test:filters": "npx playwright test tests/filters.spec.js --headed",
+    "test:product": "npx playwright test tests/product.spec.js --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
